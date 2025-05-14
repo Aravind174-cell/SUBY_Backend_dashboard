@@ -40,7 +40,7 @@ const Login = ({ showWelcomeHandler }) => {
                 localStorage.setItem('firmName', vendorFirmName)
               }
           } catch (error) {
-              alert("login fail")
+              alert("login fail");
           } 
           }
       
